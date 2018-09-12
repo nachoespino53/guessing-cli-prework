@@ -11,7 +11,7 @@ def run_guessing_game
     
     if input.to_i > 0 && input.to_i < 6
         
-        if input = number
+        if input.to_i == number
           puts "You guessed the correct number!"
         else
           puts "The computer guessed #{number}."
