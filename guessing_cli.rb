@@ -3,11 +3,6 @@ number_generator
 end
 
 
-
-
-
-
-
 run_guessing_game
   puts "Enter a number 1 to 100"
   
