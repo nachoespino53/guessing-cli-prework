@@ -1,10 +1,10 @@
 def number_generator
-  rand(100)
+  rand(6)
 end
 
 
 def run_guessing_game
-  puts "Enter a number 1 to 100"
+  puts "Enter a number 1 to 6"
   
   loop do
     puts "Enter a number 1 to 100"
