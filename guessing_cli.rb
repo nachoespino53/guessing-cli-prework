@@ -23,7 +23,7 @@ def run_guessing_game
       puts "Please enter a valid number"
     end
     
-    puts "Goodbye"
+    puts "Goodbye!"
   end
 
 end
