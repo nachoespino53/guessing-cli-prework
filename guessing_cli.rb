@@ -9,8 +9,7 @@ def run_guessing_game
     input = gets.chomp
     number = number_generator
     
-    case input
-      when input.to_i > 0 && input.to_i < 6
+    if input.to_i > 0 && input.to_i < 6
         
         if input = number.to_s
           puts "You guessed the correct number!"
@@ -18,9 +17,9 @@ def run_guessing_game
           puts "The computer guessed #{number}."
         end
         
-      when "exit" 
+    elsif "exit" 
         break
-      else
+    else
         puts "Please enter a valid number"
       end
   end
