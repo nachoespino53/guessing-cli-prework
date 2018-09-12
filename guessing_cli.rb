@@ -1,9 +1,9 @@
-number_generator
-  rand(100)
-end
+# number_generator
+#   rand(100)
+# end
 
 
-# run_guessing_game
+run_guessing_game
 #   puts "Enter a number 1 to 100"
   
 #   loop do
