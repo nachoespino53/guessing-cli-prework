@@ -10,19 +10,19 @@ def run_guessing_game
     number = number_generator
     
     case input
-    when input.to_i > 0 && input.to_i < 6
-      
-      if input = number.to_s
-        puts "You guessed the correct number!"
+      when input.to_i > 0 && input.to_i < 6
+        
+        if input = number.to_s
+          puts "You guessed the correct number!"
+        else
+          puts "The computer guessed #{number}."
+        end
+        
+      when "exit" 
+        break
       else
-        puts "The computer guessed #{number}."
+        puts "Please enter a valid number"
       end
-      
-    when "exit" 
-      break
-    else
-      puts "Please enter a valid number"
-    end
   end
   puts "Goodbye!"
 end
