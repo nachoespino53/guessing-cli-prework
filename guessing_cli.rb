@@ -11,17 +11,20 @@ run_guessing_game
     input = gets.chomp
     number = number_generator
     
-    if input > 0 && input < 101
+    if input.to_i > 0 && input.to_i < 101
+      
       if input = number
         puts "You guessed the correct number!"
       else
         puts "The computer guessed #{number}."
       end
+      
     elsif input == "exit" 
       break
     else
       puts "Please enter a valid number"
     end
+    
     puts "Goodbye"
   end
 
