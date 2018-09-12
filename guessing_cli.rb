@@ -1,5 +1,5 @@
 number_generator
-
+rand(0..100)
 end
 
 
