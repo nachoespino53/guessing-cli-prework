@@ -8,6 +8,7 @@ def run_guessing_game
     puts "Guess a number between 1 and 6."
     input = gets.chomp
     number = number_generator
+    
     case input
     when input.to_i > 0 && input.to_i < 101
       
