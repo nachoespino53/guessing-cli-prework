@@ -27,6 +27,7 @@ run_guessing_game
     else
       puts "Please enter a valid number"
     end
+    puts "Goodbye"
   end
 
 end
