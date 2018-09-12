@@ -4,10 +4,8 @@ end
 
 
 def run_guessing_game
-  puts "Guess a number between 1 to 6."
-  
   loop do
-    puts "Enter a number 1 to 100"
+    puts "Guess a number between 1 to 6."
     input = gets.chomp
     number = number_generator
     
