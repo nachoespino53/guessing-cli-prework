@@ -10,7 +10,7 @@ def run_guessing_game
     number = number_generator
     
     case input
-    when input.to_i > 0 && input.to_i < 101
+    when input.to_i > 0 && input.to_i < 6
       
       if input = number.to_s
         puts "You guessed the correct number!"
