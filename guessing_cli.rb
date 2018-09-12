@@ -8,8 +8,8 @@ def run_guessing_game
     puts "Guess a number between 1 and 6."
     input = gets.chomp
     number = number_generator
-    
-    if input.to_i > 0 && input.to_i < 101
+    case input
+    when input.to_i > 0 && input.to_i < 101
       
       if input = number.to_s
         puts "You guessed the correct number!"
@@ -17,7 +17,7 @@ def run_guessing_game
         puts "The computer guessed #{number}."
       end
       
-    elsif input == "exit" 
+    when "exit" 
       break
     else
       puts "Please enter a valid number"
